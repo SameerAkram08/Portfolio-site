@@ -11,7 +11,7 @@
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         </head>
     <body>
-      <header
+      <header id="home">
         <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
             <div class="container-fluid">
               <a class="navbar-brand fs-2" href="#">Sameer-<span class="text-primary">WebTech</span></a>
@@ -21,26 +21,26 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
                   <li class="nav-item">
-                    <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-primary" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Services
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Web Development</a></li>
-                      <li><a class="dropdown-item" href="#">IT support</a></li>
+                      <li><a class="dropdown-item" href="#services">Web Development</a></li>
+                      <li><a class="dropdown-item" href="#services">IT support</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Filming & Editing</a></li>
+                      <li><a class="dropdown-item" href="#services">Filming & Editing</a></li>
                     </ul>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our team</a>
+                        <a class="nav-link" href="#team">Our team</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                       </li>
                   </li>
                   
@@ -90,7 +90,7 @@
             </button>
           </div>
 
-          <section class="about my-5">
+          <section class="about my-5" id="about">
             <div class="container">
                 <div class=" text-center my-5">
                     <h1 data-aos="fade-up" data-aos-offset="200">About <span class="text-primary">Me</span></h1>
@@ -147,7 +147,7 @@
                     </div>
             </div>
         </section>
-        <section class="services py-5 bg-light">
+        <section class="services py-5 bg-light" id="services">
             <div class="container"  data-aos="fade-up" data-aos-offset="200">
                 <div class=" text-center my-5">
                     <h1>Our <span class="text-primary">Services</span></h1>
@@ -192,7 +192,7 @@
         </section>
 
 
-        <section class="team my-5 text-center">
+        <section class="team my-5 text-center" id="team">
           <div class="container"  data-aos="fade-up" data-aos-offset="200">
               <div class=" text-center my-5">
                   <h1>Our <span class="text-primary">Team</span></h1>
@@ -235,7 +235,7 @@
             </section>
 
             
-        <section class="contact py-5 text-center">
+        <section class="contact py-5 text-center" id="contact">
           <div class="container" data-aos="fade-up" data-aos-offset="200">
               <div class=" text-center my-5">
                   <h1>Feel free <span class="text-primary">to Connect</span></h1>
